@@ -3,6 +3,13 @@ body{
     background: url(images/musicArt.jpg) no-repeat fixed top center;
 }
 
+p{
+    color: slateblue;
+}
+h2{
+    color: slateblue;
+}
+
 .contentWrapper{
     margin: 0 auto;
     max-width: 1170px;
@@ -43,4 +50,18 @@ body{
 .navBar li a:hover{
     color: #2225c6;
     background-color: rgba(252,251,243,0.75);
+}
+
+.panel{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 1.5em 2.0em 1.5em;
+    padding: 1.0em;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+#music{
+    width: 100%;
 }
