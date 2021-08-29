@@ -1,0 +1,46 @@
+body{
+      /* background-color: rgb(43, 101, 134); */
+    background: url(images/musicArt.jpg) no-repeat fixed top center;
+}
+
+.contentWrapper{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+.navBar{
+    color: #000;
+    font-size: 1.4em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+    text-align: center;
+    background-color: lightblue;
+    /* -webkit-background-size: 100% 100%; */
+    /* -moz-background-size: 100% 100%; */
+    /* background-size: 100% 100%; */
+    /* -moz-background-size: 100% 100%; */
+   
+}
+
+.navBar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navBar li{
+    display: inline-block;
+    margin: 0;
+}
+
+.navBar li a, nav li a:visited{
+    text-decoration: none;
+    color: #2225c6;
+    padding: 0.3em 0.6em;
+}
+
+.navBar li a:hover{
+    color: #2225c6;
+    background-color: rgba(252,251,243,0.75);
+}
